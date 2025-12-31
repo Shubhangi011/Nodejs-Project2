@@ -10,11 +10,9 @@ app.get('/', (req, res) => {
     res.send('Welcome to My Hotel!')
 });
 
-
 //Import the router files
 const personRoutes=require('./router/personRouter');
 const menuRoutes=require('./router/MenuRouter');
-
 
 //Use the router files
 app.use('/person',personRoutes);
