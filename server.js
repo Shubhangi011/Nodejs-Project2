@@ -7,7 +7,7 @@ const PORT = 3000;
 app.use(bodyParser.json());
 
 app.get('/', (req, res) => {
-    res.send('Welcome to My Hotel!')
+    res.send('Welcome to My Hotel!');
 });
 
 //Import the router files
